@@ -32,5 +32,5 @@ popd
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Add dnsfilter
-git clone --depth=1 -b https://github.com/garypang13/luci-app-dnsfilter
+git clone --depth=1 https://github.com/garypang13/luci-app-dnsfilter
 
