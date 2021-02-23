@@ -30,3 +30,7 @@ popd
 #======================================================================================
 # 修改 argon 为默认主题,不再集成luci-theme-bootstrap主题
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+
+# Add dnsfilter
+git clone --depth=1 -b master https://github.com/garypang13/luci-app-dnsfilter
+
